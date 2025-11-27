@@ -1,0 +1,9 @@
+torch>=1.13.0
+torchvision>=0.14.0
+Pillow>=8.0.0
+
+# Notes:
+#  - PyTorch builds are hardware-specific. If you have CUDA, follow the
+#    official install instructions at https://pytorch.org to pick the correct
+#    wheel (CUDA vs CPU). Installing `torch` via pip without matching CUDA
+#    may install a CPU-only wheel.
