@@ -2,7 +2,8 @@
 
 ## Setup
 1. Clone this repo and navigate to this directory via `cd`.
-2. Once in this directory, create a virtual environment with python 3.10.
+2. In this directory, make sure you have a subdirectory called "./all_images" that contains the full image dataset.
+3. Once in this directory, create a virtual environment with python 3.10.
 ```
 python3.10 -m venv venv
 source venv/bin/activate
